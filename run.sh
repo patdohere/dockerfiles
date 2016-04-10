@@ -85,7 +85,7 @@ install_graphlab() {
 }
 
 check_install() {
-  if [[ -n $(python -m pip list | grep GraphLab) ]]; then
+  if [[ -z $(python -m pip list | grep GraphLab) ]]; then
     return 0
   else
     return 1
@@ -108,7 +108,7 @@ start_jupyter(){
 }
 
 main(){
-  check_install
+  check_graphlab
   start_jupyter
 }
 

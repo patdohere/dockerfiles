@@ -64,6 +64,9 @@ docker rmi patdohere/jupyter-graphlab
 
 # Resources
 [Jupyter Github Repository for Notebook Docker Image](https://github.com/jupyter/notebook)
+
 [Jupyter Github Repository for Docker Images](https://github.com/jupyter/docker-stacks)
+
 [Docker Dockerfile API Guide](https://docs.docker.com/engine/reference/builder/)
+
 [Dato GraphLab Create Installation Guide](https://dato.com/download/install-graphlab-create-command-line.html)

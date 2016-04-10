@@ -21,7 +21,8 @@ Docker Image built on top of [Jupyter Docker Image](https://hub.docker.com/r/jup
 2. Click on "General" sub-tab to configure your environment variables
 3. Edit "DATO_USERNAME" with your username
 4. Edit "DATO_PRODUCT_KEY" with your product key
-5. Click on "Restart"
+5. Click on "Save"
+5. Click on "Restart" to restart the container
 
 ### Working with your container
 1. Click on "Settings" tab
@@ -30,6 +31,10 @@ Docker Image built on top of [Jupyter Docker Image](https://hub.docker.com/r/jup
 4. Choose your folder where your notebook files are
 5. Click on "Home" tab
 6. You will see web preview, click on the box with an arrow next to the cog wheel. Your web browser should pop open with your notebooks.
+
+#### Starting and Stopping Jupyter
+1. To stop the Jupyter just click "Stop"
+2. To start the Jupyter just click "Start"
 
 ## For Linux Users
 ### Installation

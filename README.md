@@ -1,6 +1,6 @@
-[![](https://img.shields.io/badge/DockerHub-latest-lightgrey.svg)](https://hub.docker.com/r/patdohere/jupyter-graphlab/)
-[![](https://img.shields.io/badge/GitHub-master-lightgrey.svg)](https://github.com/patdohere/jupyter-graphlab/)
-
+[![](https://img.shields.io/badge/DockerHub-latest-lightgrey.svg?style=flat-square)](https://hub.docker.com/r/patdohere/jupyter-graphlab/)
+[![](https://img.shields.io/badge/GitHub-master-lightgrey.svg?style=flat-square)](https://github.com/patdohere/jupyter-graphlab/)
+[![](https://badge.imagelayers.io/patdohere/jupyter-graphlab:latest.svg)](https://imagelayers.io/?images=patdohere/jupyter-graphlab:latest 'Get your own badge on imagelayers.io')
 
 # Introduction
 Docker Image built on top of [Jupyter Docker Image](https://hub.docker.com/r/jupyter/notebook/) for use with [Coursera Machine Learning specialization]().  Comes packaged with Jupyter Notebook and the following Kernels.  Also has scripts to install GraphLab-Create.

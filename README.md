@@ -1,5 +1,3 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)](https://hub.docker.com/r/patdohere/jupyter-graphlab/)
-
 # Introduction
 Docker Image built on top of [Jupyter Docker Image](https://hub.docker.com/r/jupyter/notebook/) for use with [Coursera Machine Learning specialization]().  Comes packaged with Jupyter Notebook and the following Kernels.  Also has scripts to install GraphLab-Create.
 - Python 2

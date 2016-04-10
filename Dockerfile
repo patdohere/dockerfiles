@@ -1,6 +1,9 @@
 FROM jupyter/notebook
 MAINTAINER patdohere
 
+RUN apt-get update && apt-get install -y \
+    python-matplotlib
+
 RUN pip install --upgrade pip
 RUN python -m pip install --upgrade pip
 

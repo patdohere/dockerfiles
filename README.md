@@ -41,7 +41,6 @@ cd <path to working directory>
 ```
 3. Run the following command from the working directory to start the Jupyter notebook
 ```
-
 docker run -it -d -p 8888:8888 --name jupyter-graphlab -e DATO_USERNAME="<email>" -e DATO_PRODUCT_KEY="<product_key>" -v "$(pwd):/notebooks" patdohere/jupyter-graphlab
 ```
 4. Open a web browser and go to http://localhost:8888

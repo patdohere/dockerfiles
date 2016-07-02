@@ -18,6 +18,7 @@ EXPOSE 27960
 ENV QJS_FS_GAME="baseq3"
 ENV QJS_DEDICATED="1"
 ENV QJS_SERVER_CONFIG="server.cfg"
+
 CMD node build/ioq3ded.js +set $QJS_FS_GAME +set $QJS_DEDICATED +exec $QJS_SERVER_CONFIG
 
 # Content

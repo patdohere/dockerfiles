@@ -96,6 +96,26 @@
 
 			ioq3.viewport = document.getElementById('viewport-frame');
 			ioq3.elementPointerLock = true;
+			ioq3.exitHandler = function (err) {
+				if (err) {
+					var form = document.createElement('form');
+					form.setAttribute('method', 'POST');
+					form.setAttribute('action', '/');
+
+					var hiddenField = document.createElement('input');
+					hiddenField.setAttribute('type', 'hidden');
+					hiddenField.setAttribute('name', 'error');
+					hiddenField.setAttribute('value', err);
+					form.appendChild(hiddenField);
+
+					document.body.appendChild(form);
+					form.submit();
+					return;
+				}
+
+				window.location.href = '/';
+			}
+
 			window.addEventListener('resize', resizeViewport);
 
 			// merge default args with query string args

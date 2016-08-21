@@ -71,7 +71,7 @@ verify_license() {
 }
 
 generate_url() {
-  echo "https://get.dato.com/GraphLab-Create/1.8.5/$DATO_USERNAME/$DATO_PRODUCT_KEY/GraphLab-Create-License.tar.gz"
+  echo "https://get.graphLab.com/GraphLab-Create/1.8.5/$DATO_USERNAME/$DATO_PRODUCT_KEY/GraphLab-Create-License.tar.gz"
 }
 
 install_graphlab() {
